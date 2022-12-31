@@ -1,0 +1,486 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#page-left_start{
+    display: flex;
+    flex-direction: column;
+    background-color: #0a227c;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    color: white;
+}
+#name_start{
+    text-align: center;
+    font-size: 30px;
+
+}
+#list_start ul a {
+    color: white;
+    display: block;
+    line-height: 60px;
+    font-size: 25px;
+}
+#list_Start ul a:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+#adab_start{
+    line-height: 30px;
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 1px solid rgba(255,255,255,.2);    ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#list_start {
+  margin-top: 10px;
+}
+#text-ahlan{
+    position: absolute;
+    background: radial-gradient(circle, #f8fefe, #8ec5fd);
+    margin-left: 30%;
+    width: 70%;
+    height: 100%;  
+}
+#text-ahlan h2{
+    font-size: 100px;
+    margin-left: 350px;
+    margin-top: 200px;
+    background: -webkit-linear-gradient(50deg, #e8ea7e, #ed8146);background-clip: text;-webkit-text-fill-color: transparent;
+}
+#text-nama {
+    position: absolute;
+    font-size: 80px;
+    margin-left: 640px;
+    margin-top: 180px;
+    background: -webkit-linear-gradient(50deg, #e8ea7e, #ed8146);background-clip: text;-webkit-text-fill-color: transparent;
+}
+#pilihan {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 55%;
+    margin-top: 550px;
+
+}
+#pilihan a{
+    color: black;
+    
+}
+#login_start {
+    margin-right: 150px;
+    
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    padding: 5px 0;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#login:hover{
+    background: white;
+    color: black;
+    transition: 1s;
+}
+#login a:hover{
+    background: white;
+    color: black;
+    transition: 0.5s;
+}
+#daftar{
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    padding: 5px 0;
+    font-weight: bold;
+    border-radius: 8px;
+}
+#daftar:hover{
+    background: white;
+    color: black;
+    transition: 1s;
+}
+#daftar a:hover{
+    color: black;
+    transition: 0.8s;
+}
+#bingkai{
+    position: absolute;
+    width: 60%;
+    border: 3px solid transparent;
+    height: 85%;
+    margin-left: 550px;
+    margin-top: 55px;
+    border-radius: 10px;
+    -moz-border-image: -moz-linear-gradient(top,#e8ea7e, #ed8146);
+    -webkit-border-image: -webkit-linear-gradient(top, #e8ea7e, #ed8146);
+    border-image: linear-gradient(to right,#e8ea7e, #ed8146);
+    border-image-slice: 1;
+}
+
+/*Login=====================================================================================*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(images/background_login.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+#layer_login{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: absolute;
+}
+#form-login{
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 500px;
+  margin-left: 555px;
+  margin-top: 120px;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+}
+#login_login{
+  text-align: center;
+  padding-top: 50px;
+}
+#username_login{
+  padding-left: 20px;
+}
+#password_login{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+#form-login input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid;
+  width: 93%;
+  font-size: 15px;
+  border-color: white;
+  color: white;
+}
+#submit_login{
+  padding-left: 20px;
+  margin-top: 20px;
+}
+#form-login button{
+  width: 94.2%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color:	#00bfff;
+  
+}
+#submit_login button a{
+  text-decoration: none;
+  color: white;
+}
+#form-login button:hover{
+background-color: red;
+transition: 0.6s;
+}
+#forgot-password{
+  margin-left: 265px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  line-height: 30px;
+}
+#forgot-password a{
+  text-decoration: none;
+  color: white;
+}
+#forgot-password a:hover{
+  color: red;
+  transition: 0.5s;
+}
+
+/*Register=====================================================================================*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(images/background_register.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#layer_register{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#page-left_register{
+  position: fixed;
+  height: 100%;
+  color: white;
+}
+#page-right_register{
+  position: absolute;
+  background-color: rgba(10, 34, 124);
+  color: white;
+  width: 30%;
+  height: 100%;
+  margin-left: 70%;
+}
+#judul_register{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 20px;
+
+}
+#become_register{
+  width: 300px;
+  margin-left: 50px;
+ 
+  font-size: 20px;
+}
+#opened_register{
+  margin-left: 50px;
+}
+#input-data_register{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 50px;
+  ;
+}
+#phone_register, #name_register, #password_register, #email_register{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+input {
+  width: 350px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: white ;
+  border-radius: 5px;
+
+}
+#phone_register input{
+  width: 200px;
+}
+#submit_register{
+  position: absolute;
+  margin-left: 226px;
+  margin-top: -158px;
+}
+button{
+  width: 130px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: red;
+  border: none;
+  transition: 1s;
+}
+
+/*IQRO-1====================================================================================*/
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  background-color: #EEEEEE;
+}
+#menu-bar_iqro-1{
+  background-color: rgba(10, 34, 124);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+#search_iqro-1{
+  position: absolute;
+  margin-left: 1160px;
+  margin-top: 30px;
+}
+#search_iqro-1 input{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba( 255, 255, 255, 1 );
+}
+#menu_iqro-1{   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-align: center;
+  gap: 100px;
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+}
+#maqro_iqro-1{
+  
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  float: right;
+  margin-top: 50px;
+  margin-right: 30px;
+  box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+  height: 880px;
+  border-color: rgba(10, 34, 124);
+  text-align: right;
+  line-height: 50px;
+  font-size: 20px;
+}
+#maqro_iqro-1 ul{
+  margin-right: 30px;
+  list-style: none;
+}
+#maqro_iqro-1 ul li a{
+  text-decoration: none;
+  color: black;
+}
+#bacaan_iqro-1{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 50px;
+  background-color:red;
+  height: 880px;
+  width: 800px;
+  background-color: white;
+  box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+  
+  
+}
+table{
+  margin: 50px;
+  background-color: #ffffe0;
+  
+}
+#bismillah_iqro-1{
+  font-size: 80px;
+  text-align: center;
+}
+#bismillah_iqro-1:hover{
+  color: red;
+  cursor: pointer;
+  transition: 0.5s;
+}
+td{
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  font-size: 80px;
+  cursor: pointer;
+  
+
+}
+td:hover{
+  color: red;
+  transition: 0.5s;
+}
+#awwal_iqro-1{
+text-align: center;
+font-size: 40px;
+}
+#awwal_iqro-1:hover{
+  cursor: pointer;
+}
+#awwal_iqro-1 th{
+  height: 50px;
+}
+#awwal_iqro-1 #huruf{
+  background-color: red;
+  color: white;
+}
+#awwal_iqro-1 #darsu{
+background-color: green;
+color: white;
+}
+#bottom_iqro-1{
+
+  background-color: rgba(10, 34, 124);
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#social-media_iqro-1 ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+}
+#social-media_iqro-1 ul{
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  gap: 35px;
+}#social-media_iqro-1 p{
+  margin-left: 75px;
+}
+#arrow_iqro-1{
+  margin-top: 62%;
+  display: flex;
+  justify-content: center;
+}
+#arrow_iqro-1 ul{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#arrow_iqro-1 ul li{
+  text-decoration: none;
+  list-style: none;
+}
+#arrow_iqro-1 ul li a{
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+}
+#bab_iqro-1{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
